@@ -2645,10 +2645,7 @@ $(document).ready(function(){
       }
 
       // If destroying the select, remove the selelct-id and reset it to it's uninitialized state.
-      if(callback === 'destroy') {
-          $select.data('select-id', null).removeClass('initialized');
-          return;
-      }
+      
 
       var uniqueID = Materialize.guid();
       $select.data('select-id', uniqueID);

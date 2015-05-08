@@ -2730,8 +2730,8 @@ span.badge {
 .mdi-action-info-outline:before {
   content: "\e639"; }
 
-/*.mdi-action-input:before {
-  content: "\e63a"; }*/
+.mdi-action-input:before {
+  content: "\e63a"; }
 
 .mdi-action-invert-colors:before {
   content: "\e63b"; }
