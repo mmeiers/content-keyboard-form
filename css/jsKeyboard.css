@@ -7,27 +7,25 @@ overflow:hidden;
 #virtualKeyboard {
     text-align: center;
     top:50vh;
-	width:60vw;
-	left:10vw;
-
+	width:70vw;
 }
 
 #keyboard{
 	position: relative;
-	left:0px;
-	top:40px;
+	top:10px;
     width:820px;
 	height:508px;
     margin: 20 auto;
     display:block;
-    bottom:0px; left:0px;
+    bottom:0px; 
+	left:-5px;
  }
 
 #keyboardBackground{
 	position: absolute;
 	top:300px;
-    width:60vw;
-	height:40vh;
+    width:70vw;
+	height:50vh;
 	background-color:#37474F;
 	left:0px;
 	

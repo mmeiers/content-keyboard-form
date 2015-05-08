@@ -29,8 +29,9 @@ header {
 .card-panel {
 	position: absolute;
 	top:10vh;
-	left:20vw;
-	width:60vw;	
+	left:15vw;
+	width:70vw;
+	height:80vh;
 }
 
 #main {
@@ -61,8 +62,11 @@ header {
 	padding-bottom: 2vw;
 }
 
-h2 {
+h2 { 
+	position: relative;
+	top:-10px;
 	color:white;
+	font-size:4vw;
 }
 
 
